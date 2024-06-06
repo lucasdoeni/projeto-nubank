@@ -22,11 +22,66 @@
 .menu-nubank {
     max-width: 100%;
     float: left;
+    
 }
 
 .menu-nubank li {
     margin-top: 20px;
     display: inline-block; /*lado a lado */
+}
+
+.menu-nubank .material-symbols-outlined {
+    margin-left: 10px;
+    float: right;
+}
+
+.sec-1 .material-symbols-outlined {
+    float: right;
+    margin-right: 300px;
+}
+
+.sec-3 .material-symbols-outlined {
+    float: right;
+    margin-right: 200px;
+}
+
+.sec-4 .material-symbols-outlined {
+    float: right;
+    margin-right: 150px;
+}
+
+.cartao .material-symbols-outlined {
+    float: right;
+    margin-right: 390px;
+}
+
+.cartao-ultra .material-symbols-outlined {
+    float: right;
+    margin-right: 540px;
+}
+
+.nu-cartao .material-symbols-outlined {
+    float: right;
+    margin-right: 230px;
+}
+
+.secao5 .material-symbols-outlined {
+    float: right;
+    margin-right: 1100px;
+}
+
+.secao6 .material-symbols-outlined {
+    float: right;
+    margin-right: 1300px;
+}
+
+.secao7 .material-symbols-outlined {
+    float: right;
+    margin-right: 1300px;
+}
+
+.login .material-symbols-outlined {
+    margin-left: 10px;
 }
 
 .menu-nubank a {
@@ -42,7 +97,7 @@
 
 .login li {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 34px;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: bolder;
@@ -57,7 +112,7 @@
 .login a {
     text-decoration: none;
     color: #820ad1;
-    
+    margin-left: 10px;
 }
 
 /* Inicio da Imagem após o Topo */
@@ -145,7 +200,7 @@
     .secao2 {
         height: 850px;
         background: white;
-        width: 99%;
+        width: 100%;
         float: left;
     }
 
@@ -239,6 +294,8 @@
         margin-left: 80px;
     }
 
+    
+
 /* Fim da Seção 3 */
 
 /* Inicio da Seção 4 */
@@ -285,3 +342,197 @@
     
 }
 /* Fim da Seção 4 */
+
+/* Inicio da Seção 5, 6 e 7 */
+
+.secao5 {
+    float: left;
+    background: url(../img/img5.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 860px;
+}
+
+.secao5 h2 {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    padding: 337px 0 0 0;
+    margin-left: 460px;
+    font-size: 40px;
+}
+
+.link5 {
+    font-family: "Cabin", sans-serif;
+    text-decoration: none;
+    margin-left: 460px;
+    color: white;
+}
+
+.secao6 {
+    float: left;
+    background: url(../img/img6.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 860px;
+}
+
+.secao6 h2 {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    padding: 337px 0 0 0;
+    margin-left: 460px;
+    font-size: 40px;
+}
+
+.link6 {
+    font-family: "Cabin", sans-serif;
+    text-decoration: none;
+    margin-left: 460px;
+    color: white;
+}
+
+.secao7 {
+    float: left;
+    background: url(../img/img7.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 860px;
+}
+
+.secao7 h2 {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    padding: 337px 0 0 0;
+    margin-left: 460px;
+    font-size: 40px;
+}
+
+.link7 {
+    font-family: "Cabin", sans-serif;
+    text-decoration: none;
+    margin-left: 460px;
+    color: white;
+}
+
+/* Fim da Seção 5, 6 e 7 */
+
+/* Inicio do Rodapé 1 */
+
+.rodape1 {
+    background: #111111;
+    width: 100%;
+}
+
+.sec-1 {
+    width: 22.1%;
+    float: left;
+}
+
+.sec-2 {
+    width: 22.1%;
+    float: left;
+}
+
+.sec-3 {
+    width: 22.1%;
+    float: left;
+}
+
+.sec-4 {
+    width: 22.1%;
+    float: left;
+}
+
+.sec-1, .sec-2, .sec-3, .sec-4 {
+    font-family: "Cabin", sans-serif;
+    background: #111111;
+    height: 420px;
+    color: #bcbcbc;
+    padding-top: 85px;
+    padding-left: 55px;
+}
+
+.sec-1 a, .sec-2 a, .sec-3 a, .sec-4 a {
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-weight: lighter;
+    color: white;
+    color: #bcbcbc;
+}
+
+.sec-1 li, .sec-2 li, .sec-3 li, .sec-4 li {
+    font-family: "Cabin", sans-serif;
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sec-1 h2, .sec-2 h2, .sec-3 h2, .sec-4 h2 {
+    font-family: "Cabin", sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec-1 li a:hover {
+    color: #820ad1;
+}
+
+.sec-2 li a:hover {
+    color: #820ad1;
+}
+
+.sec-3 li a:hover {
+    color: #820ad1;
+}
+
+.sec-4 li a:hover {
+    color: #820ad1;
+}
+
+/* Fim do Rodapé 1 */
+
+/* Inicio do Rodapé 3 */
+
+.rodape3 {
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-color: #111111;
+    border-top: 1px solid #bcbcbc70;
+}
+
+.rodape3 a {
+    color: white;
+}
+
+.rodape3 a:hover {
+    color: #820ad1;
+}
+
+.imgrodape {
+    padding: 30px;
+    float: left;
+}
+
+.rodape3 p {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 25px;
+    float: left;
+}
+
+.redes {
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.redes li {
+    display: inline-block;
+    padding-right: 20px;
+}
+/* Fim do Rodapé 3 */
