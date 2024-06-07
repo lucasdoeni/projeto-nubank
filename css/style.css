@@ -156,9 +156,9 @@
     }
 
     .form h3 {
-        font-family: "Nanum Gothic", sans-serif;
+        font-family: "Cabin", sans-serif;
         color: black;
-        font-size: 23px;
+        font-size: 25px;
         margin-bottom: 70px;
     }
 
@@ -420,7 +420,7 @@
 
 .rodape1 {
     background: #111111;
-    width: 100%;
+    width: 100vw;
 }
 
 .sec-1 {

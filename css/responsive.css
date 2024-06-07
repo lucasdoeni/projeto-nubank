@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+Pequenas telas: ate 600px
+Celular: de 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200px
+Grandes telas: acima de 1200px
+*/
+
+/* Typical Device Breakpoints - 2024
+Mobile Device: 320px ate 480px
+iPads, tablets: 481px ate 768px
+Pequenas telas, laptop: 769px ate 1024px
+PC, Telas Grandes: 1025px ate 1200px
+Extra Telas Grandes, TV: 1201px ou mais
+*/
+
+@media screen and (min-width: 768px) {
+    .menu-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-nubank {
+        display: none;
+    }
+
+    .menu-mobile {
+        
+        display: block;
+        float: right;
+        padding-right: 70px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .menu-mobile .material-symbols-outlined {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+
+    .imagem {
+        background: url(../img/responsivo1.png) no-repeat;
+        background-size: cover;
+        height: 900px;
+    }
+
+    .imagem h1 {
+        padding: 300px 15px 0px 15px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .imagem h2 {
+        padding: 30px 15px 0px 15px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .imagem h1 br {
+        display: none;
+    }
+    
+    .imagem h2 br {
+        display: none;
+    }
+
+    .form {
+        margin-top: 20px;
+        margin-right: 70px;
+        width: 280px;
+        height: 340px;
+    }
+
+    .form h3 {
+        white-space: nowrap; /* para remover os <br> */
+        font-size: 23px;
+    }
+
+    .secao2 {
+        height: 900px;
+        width: 100%;
+    }
+
+    .cartao h2 {
+        margin-left: 45px;
+        margin-top: 170px;
+        font-size: 35px;
+    }
+
+    .cartao h2 a {
+        white-space: nowrap;
+    }
+    
+    .cartao h3 {
+        margin-left: 45px;
+        font-size: 25px;
+        margin-right: -250px;
+    }
+
+    .cartao h3 br {
+        display: none;
+    }
+
+    .link2 {
+        margin-left: 45px;
+    }
+
+    .link2 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .img-cartao {
+        clear: both; /* limpar as configuraçoes anterior */
+        margin-top: 30px;
+        margin-left: 45px;
+        padding-left: 15px;
+    }
+
+    .cartao-ultra h2 {
+        margin-top: -170px;
+        margin-left: 45px;
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+    .cartao-ultra h3 {
+        margin-left: 45px;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+
+    .link3 {
+        margin-left: 45px;
+    }
+
+    .link3 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .violeta {
+        margin-top: 0px;
+        margin-left: 45px;
+        max-width: 80%;
+    }
+
+    .secao4 {
+        height: 850px;
+    }
+
+    .nu-cartao h2 {
+        margin-top: -10px;
+        margin-left: 45px;
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+    .nu-cartao h3 {
+        margin-left: 45px;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+
+    .link4 {
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .link4 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .cartao-4 {
+        margin-top: 100px;
+        margin-left: 65px;
+        max-width: 80%;
+    }
+
+    .secao5 {
+        background: url(../img/responsivo2.png) no-repeat center;
+        background-size: cover;
+        height: 900px;
+        
+    }
+
+    .secao5 h2 {
+        font-size: 35px;
+        margin-top: -10px;
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .link5 {
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .link5 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .secao6 {
+        background: url(../img/responsivo3.png) no-repeat center;
+        background-size: cover;
+        height: 900px;   
+    }
+
+    .link6 {
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .link6 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .secao6 h2 {
+        font-size: 35px;
+        margin-top: -10px;
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .secao7 {
+        background: url(../img/responsivo4.png) no-repeat right;
+        background-size: cover;
+        height: 900px; 
+    }
+
+    .link7 {
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .link7 .material-symbols-outlined {
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .secao7 h2 {
+        font-size: 35px;
+        margin-top: -10px;
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .rodape1 h2 {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    .rodape1 .sec-1, .sec-2, .sec-3, .sec-4 {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        margin-bottom: -60px;
+    }
+
+    .rodape1 .sec-1 a, .sec-2 a, .sec-3 a, .sec-4 a {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .rodape1 .sec-1 li, .sec-2 li, .sec-3 li, .sec-4 li {
+        padding: 5px 0px 0px 35px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .rodape2 h2 {
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+
+    .rodape2 .sec-1, .sec-2, .sec-3, .sec-4 {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .rodape2 .sec-1 a, .sec-2 a, .sec-3 a, .sec-4 a {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .rodape2 .sec-1 li, .sec-2 li, .sec-3 li, .sec-4 li {
+        padding: 5px 0px 0px 35px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .rodape3 {
+        height: 350px;
+    }
+
+}
