@@ -7,7 +7,7 @@ Este projeto é uma recriação visual da página principal do site do Nubank. F
 
 ##  Imagem de prévia
 
-![preview](./design/nubank-desktop.jpg)
+![preview](./design/nubank-desktop.png)
 
 >  Caso ainda não tenha uma imagem de preview no repositório, basta adicionar um *screenshot* da interface como `preview.jpg` no diretório raiz do projeto.
 
